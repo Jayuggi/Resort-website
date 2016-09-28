@@ -67,15 +67,21 @@ h3{
     margin-left: 600px;
   }
 
-#content{
+#all_content{
     width:95%;
     background: white;
     position: relative;
     margin: auto;
-    height:600px;
+    height: auto;
     margin-top: 600px;
 }
-#content p {
+
+#content_1 {
+  width: 30%;
+  float: left;
+  margin: auto;
+}
+#content_1 p {
   font-stretch: expanded;
   font-size: 30px;
   font-style: italic;
