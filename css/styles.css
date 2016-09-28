@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("d.jpg");
+    background-image: url("../img/animal.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,14 +12,13 @@ body{
     margin: 4%;
     height: 50px;
     background-color: blue;
-    position:fixed;
+    position: fixed;
     }
 ul{
    width: 100%;
 }
 li {
     float:left;
-    text-decoration: none;
     display: block;
     padding:20px;
     text-align: center;
@@ -28,42 +27,34 @@ li {
     margin-left: 50px;
              }
 #logo{
-    background-image: url "img/logo.jpg";
+    background-image: url ("../img/logo.jpg");
     position: absolute;
     left:0;
-    width:40px;
-    height: 20px;
+    right: 100px;
+    width:100px;
+    height: 150px;
     background: black;
      }
 li a{
     text-decoration: none;
-    color: darkgrey;
+    color: white;
     }
-h1{
+h1 {
     text-align: center;
     color: white;
-    font-family: Old Standard TT;
-    font-size: 3em;
+    font-family: sans-serif;;
 
-
-
-  }
+   }
 #header{
     position: relative;
     top:150px;
     margin: auto;
-
-
-
-}
-hr
-{
+       }
+hr {
     margin:2px 550px 0 550px;
     border-style: solid 2px;
     color:white;
-
-
-}
+  }
 
 h3{
     position:absolute;
@@ -74,9 +65,8 @@ h3{
     font-style: oblique;
     margin-top: 20px;
     margin-left: 600px;
+  }
 
-
-}
 #content{
     width:95%;
     background: white;
@@ -90,5 +80,5 @@ h3{
   font-size: 30px;
   font-style: italic;
   margin-left: 15px;
-  padding: inherit;
+  padding: 50px;
 }
